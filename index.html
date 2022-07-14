@@ -5,30 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="icons/bosch.svg" type="icons/bosch">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <title>Bosch ETS</title>
 
 </head>
 
 <body>
-    <img src="img/Bosch-Supergraphic_zbpz44.png" width="100%" height="7px" alt="">
-    <header id="header">
 
-        <img id="logo" src="img/Bosch_symbol_logo_black_red_PT.svg" width="250px" alt="Bosch Symbol Logo" />
-        <nav id="nav">
-            <button id="btn-menu"><span id="hamburger"></span> Menu</button>
+    <!--Abre Página de carregamento-->
+    <div class="overlay">
+            <img src="img/Bosch_symbol_logo_black_red_PT.svg" class="logo-loader" alt="Logotipo Bosch">
+            <div class="animation-bar"></div>
+    </div>
+    <!--Fecha Página de carregamento-->
 
-            <ul id="menu">
-                <li><a href="#link">Inicio</a></li>
-                <li><a href="#link">Sobre a Bosch</a></li>
-                <li><a href="#link">Sobre a ETS</a></li>
-                <li><a href="#link">Processo Seletivo</a></li>
-            </ul>
 
-        </nav>
-    </header>
+    <!--Abre NavBar-->
+    <section>
+        <img src="img/Bosch-Supergraphic_zbpz44.png" width="100%" height="7px" alt="">
+        <header id="header">
 
+            <img id="logo" src="img/Bosch_symbol_logo_black_red_PT.svg" width="250px" alt="Bosch Symbol Logo" />
+            <nav id="nav">
+
+                <button id="btn-search">pesquisa</button>
+                <button id="btn-menu"><span id="hamburger"></span> Menu</button>
+
+                <ul id="menu">
+                    <li><a href="#link">Inicio</a></li>
+                    <li><a href="#link">Sobre a Bosch</a></li>
+                    <li><a href="#link">Sobre a ETS</a></li>
+                    <li><a href="#link">Processo Seletivo</a></li>
+                </ul>
+
+            </nav>
+        </header>
+    </section>
+    <!--Fecha NavBar-->
+
+
+    <!--Abre slider-->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -52,11 +70,13 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
+    <!--Fecha slider-->
 
-    <script src="javaScript.js">
+    <script src="js/javaScript.js">
     </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/loader.js"></script>
 </body>
 
 </html>
