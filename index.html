@@ -5,14 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icons/bosch.svg" type="icons/bosch">
+    <link rel="shortcut icon" href="icons/bosch.ico" type="icons/bosch">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Bosch ETS</title>
 
 </head>
 
 <body>
+    
+    <script src="js/chatbot.js"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Robosch"
+      agent-id="df0aaf3a-291b-4447-bfbe-bfcf744cb576"
+      language-code="pt-br"
+    ></df-messenger>
+
+    <!--Abre plugin VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <!--Fecha plugin VLibras-->
 
     <!--Abre Página de carregamento-->
     <div class="overlay">
@@ -30,7 +48,11 @@
             <img id="logo" src="img/Bosch_symbol_logo_black_red_PT.svg" width="250px" alt="Bosch Symbol Logo" />
             <nav id="nav">
 
-                <button id="btn-search">pesquisa</button>
+                <button id="btn-search">
+                    <i class="large material-icons">search</i>
+                    <p>Pesquisa</p>
+                </button>
+
                 <button id="btn-menu"><span id="hamburger"></span> Menu</button>
 
                 <ul id="menu">
@@ -72,11 +94,31 @@
     </div>
     <!--Fecha slider-->
 
+    <!--Corpo-->
+    <div class="bem-vindo-container">
+        <h1>Bem vindo!</h1>
+
+        <div class="bem-vindo-info">
+            
+            <p>Eu sou o Robosch bot desenvolvido Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum 
+                is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum 
+                is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum 
+                is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+                <img src="img/robosch-heart.png" alt="Robosch" class="imagem-robosch">
+    </div>
+</div>
+
     <script src="js/javaScript.js">
     </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/loader.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <script src="js/js.config.js"></script>
 </body>
 
 </html>

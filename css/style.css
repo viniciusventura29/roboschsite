@@ -3,8 +3,26 @@
             margin: 0;
             margin-top: -3.4px;
             padding: 0;
-            color: #000000;
+            color: #1f1f1f;
             text-decoration: none;
+        }
+
+        #nav{
+            display: flex;
+        }
+
+        #btn-search{
+            margin-right: 3vw;
+            background-color: #fff;
+            border: none;
+            font-size: 1rem;
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+
+        #btn-search p{
+            margin-left:10px ;
         }
 
         #header {
@@ -19,20 +37,20 @@
             display: block;
             list-style: none;
             position: absolute;
-            margin-top: 40px;
+            margin-top: 50px;
             right: 0;
             z-index: 1000;
             width: 100%;
             height: 0vh;
             transition: .6s;
-            background-color: #f2f2f2;
+            background-color: #ffffff;
             visibility: hidden;
             overflow-y: hidden;
         }
         
         #menu li {
             padding: 25px 25px 25px 80px;
-            border-bottom: solid 1px #f2f2f2;
+            border-bottom: solid 1px #ffffff;
         }
         
         #menu li:hover {
@@ -41,6 +59,7 @@
         
         #btn {
             display: block;
+            
         }
         
         #nav.active #menu {
@@ -53,9 +72,10 @@
             padding: .5rem 1rem;
             font-size: 1rem;
             border: none;
-            background-color: none;
+            background-color: #fff;
             cursor: pointer;
             gap: .5rem;
+      align-items: center;
         }
         
         #hamburger {
@@ -89,15 +109,6 @@
             transform: rotate(-135deg);
         }
 
-        
-        
-        @media (max-width: 780px) {
-            #nav.active #menu {
-                height: 100vh;
-                visibility: visible;
-            }
-        }
-
 
         .logo-loader{
             width: 350px;
@@ -121,7 +132,7 @@
         .animation-bar{
             width: 250px;
             height: 2px;
-            background: #cfcfcf;
+            background: #ffffff;
             margin-top: 22px;
             overflow: hidden;
             position: relative;
@@ -129,7 +140,7 @@
 
         .animation-bar::before{
             content: "";
-            width: 75px;
+            width: 150px;
             height: 2px;
             background-color: #0073b1;
             position: absolute;
@@ -141,4 +152,13 @@
             50%{
                 left: 96px;
             }
+        }
+
+        @media (max-width: 780px) {
+            #nav.active #menu {
+                height: 100vh;
+                visibility: visible;
+            }
+
+        
         }

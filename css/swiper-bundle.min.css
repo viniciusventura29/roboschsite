@@ -181,7 +181,42 @@
         margin-top: 10px;
         align-items: flex-end;
     }
+
+    .chat-bot{
+        background-color: #000;
+        color: aqua;
+    }
     
+.bem-vindo-container{
+    margin-top: 7vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    font-size: 40px;
+    height: 60vh;
+    
+}
+
+.imagem-robosch{
+    width: 20%;
+    
+}
+
+.bem-vindo-info{
+    display: flex;
+    margin-top:5vh ;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.bem-vindo-container p{
+    width: 50%;
+    font-size: medium;
+    text-align: justify;
+    line-height: 30px;
+}
+
     .swiper-3d .swiper-slide-shadow {
         background: rgba(0, 0, 0, .15)
     }
@@ -836,4 +871,55 @@
             border-radius: 20px;
             text-align: center;
         }
+
+        .bem-vindo-container p{
+            font-size: 8px;
+            line-height: 10px;
+        }
+
+        .bem-vindo-container h1{
+            font-size: 10px;
+        }
+    }
+
+    @media (max-width: 1030px){
+        .image-info-home {
+            z-index: 100;
+            position: absolute;
+            align-items: center;
+            margin-right: 0vw;
+            margin-bottom: 30vh;
+            padding-left: 0vw;
+            margin-top: 30vh;
+        }
+
+        .image-info-home h1 {
+            font-size: 80px;
+            text-align: center;
+        }
+
+        .image-info-home p{
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .bem-vindo-info{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bem-vindo-container p{
+            font-size: 10px;
+            line-height: 20px;
+        }
+
+        .bem-vindo-container h1{
+            font-size: 60px;
+
+        }
+
+        .imagem-robosch{
+            margin-top: 2vh;
+        }
+        
     }
