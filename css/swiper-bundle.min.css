@@ -187,34 +187,67 @@
         color: aqua;
     }
     
-.bem-vindo-container{
+.pattern-conteiner{
     margin-top: 7vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    text-align: center;
-    font-size: 40px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: left;
+    font-size: 80px;
     height: 60vh;
     
 }
 
+.conteiner-img{
+    background-color: #000;
+    opacity: 1;
+    border-radius: 10px;
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    z-index: -10000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.conteiner-img p{
+    position:absolute;
+    color: #fff;
+}
+
+.conteiner-img img{
+    opacity: 0.7;
+    background-size: cover;
+    box-sizing: content-box
+    
+    
+}
+
 .imagem-robosch{
-    width: 20%;
+    width: 30%;;
+    margin-left: 10vw;
     
 }
 
 .bem-vindo-info{
     display: flex;
-    margin-top:5vh ;
-    justify-content: space-evenly;
+    margin-top:4vh ;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 0px;
     
 }
 
-.bem-vindo-container p{
+.pattern-conteiner p{
     width: 50%;
     font-size: medium;
     text-align: justify;
     line-height: 30px;
+    padding-left: 0px;
 }
 
     .swiper-3d .swiper-slide-shadow {
@@ -872,12 +905,12 @@
             text-align: center;
         }
 
-        .bem-vindo-container p{
+        .pattern-conteiner p{
             font-size: 8px;
             line-height: 10px;
         }
 
-        .bem-vindo-container h1{
+        .pattern-conteiner h1{
             font-size: 10px;
         }
     }
@@ -903,23 +936,43 @@
             text-align: center;
         }
 
+        .pattern-conteiner{
+            padding-left: 5vw;
+            padding-right: 5vw;
+            text-align: center;
+        }
+
         .bem-vindo-info{
             display: flex;
             flex-direction: column;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            margin-top: 2vh;
+            
         }
 
-        .bem-vindo-container p{
-            font-size: 10px;
+        .bem-vindo-info img{
+            margin-bottom: 5vh;
+        }
+        .container-all{
+            margin-top: 30vh;
+        }
+
+        .pattern-conteiner p{
+            font-size: 12px;
             line-height: 20px;
+            width: 80%;
         }
 
-        .bem-vindo-container h1{
+        .pattern-conteiner h1{
             font-size: 60px;
 
         }
 
         .imagem-robosch{
             margin-top: 2vh;
+            margin-left: 0vw;
+            
         }
         
     }
