@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "robosch-drub",
+  "private_key_id": "c37ab7b9e623f1fcaa150f63e4a271f2f8c512c2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDn3q1Ojyl/78Y8\n7nL3+6U8srBMSEZjWrncrvdgit6O/K9fTiKjCcgVUGHxieLLvMpDZYUMC36ieeFb\nKS8gQLWLgAKFAJAgFtIufHh2c2nBdDVx1Ua55D+iUsE6bVw9/gN8LVuk0rahRS94\nav3JBk5JCRCtCFTVOt+qA7MnFSWmgt3EN6cbDApfPyjITu5HpIFf5BSQZNacr4h0\nfCHob00/SUJC9+ANL7Q/OnoS/027a14tZt+rRw64kspmDxF0Izv2V95ckEvUwlL4\nFjZJa7b21oXglt1/DVSQQCWCDzi4vOXn/SVhxsxydRVj8TEnVaamI7aqPeKJtnBI\nL+uj+wzdAgMBAAECggEAB+uZ0qE5tVH8yp2baDAhKVGyHdWFVNvr3qwDEfDOt0HO\nQTNf/18CGCjcjDJHEw4epJyTpc7lR9fz0e7atZr5ZkuzU3mYYHOpZZlBAHEZz6EZ\ngosj/kRJe+NXWWGmg1Ypb5mHCsyAHK+4GuUgtkpm7FJ2vEphx3TaTgXHC6TvNYV1\nfyivuNc9EVCtbqLCLvdThn2gJic89zfcwUNzFhUhtPV4jQIkOArSj5DgCNovYjTx\nM6UPdxb3K/lxSrrE8559MUs/voAhyP5wmmRHFpdSeZd8VllFi7rZHwc9egMu+2RF\nurd9zysiTRyjBh84d9TYixUFvGyyCMEqR7aNM2qMewKBgQD70UNrnuAZyh5Zp55i\ndVxPmv2RsnMocQk3NKmSNQM+pMY7moRfPPtNNAYxkEu26ZI+0dObWTieE9vDDFM7\nLxDV92t8s0LBPYLeboWmLfNMnkPjNf8CJkpgDI5DzM0nXRt9E63Mrr3BG0tPCe++\nm7ZKq33G0swdZ0614EJafnFtBwKBgQDruJiAJvDabJgNlj24xRjvIRgZzM3ASNBD\npJx45lN0NsYgdKJxxVxZgWW/ItKJOU1ZrU8hozDni/wgOCnd2sDFPuMdR/wQPbcA\nlZXqVxm0oSCbamUYYzqewyc5xfn3tZUcU7u8V2kpw3K3v/lkNmAzXeab7Wqk1859\nDVZVi/7h+wKBgQCDwjvnrMqPU+1LdePumn/Be1RgDqIor/RleV2cjbZz6Z17hF7s\nwiivfaAcAOdM/quxyPJSn317YOKlDObj2b2SZxJLvjQYjknSfrvZdsON/GWDFjam\n9kgGN6ucmCVkClieulQ++9N3ngNqiMVz01+vdEmsZZG9dNd/XKb7WJuaswKBgQCg\nRZLrD48T9GIuWsj8qIabkNTiNe5vnxJ766C4U2LK0bNEvgj1ckuoT+LuYq7jvqJp\nJv120Y6e4P88qPNOdT483tVtQ1SPdmbHbu3PuAkyV5vkECNMwatJ50b0cTfUxRHt\ngMFU/dnzG4EUjuLy0EX4pw/1VSf9jP5I6Jia8eULoQKBgQCqZ+OI3YyQsPx0Wrnp\nfvfkOTdhLpplGDzhu8e4NafcTZdEjJiMNihid90SHdlo08CLFJfVGRw6lWIdI87g\ndFBmKdxZXsbjtmfwFXjCWOCuxNlBsTrnswdcE3d5kDsJzbd1M/9EeYiSwb4lcC4d\nQyvihYuAAnHenQHPh+/n1RtVLw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "robosch-externo@robosch-drub.iam.gserviceaccount.com",
+  "client_id": "101470118195404301988",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/robosch-externo%40robosch-drub.iam.gserviceaccount.com"
+}

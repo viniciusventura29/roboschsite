@@ -1,6 +1,8 @@
 (function (global) {
-    'use strict';
+
   
+    'use strict';
+    
     const nonce = window['dfBootstrapNonce'];
   
     var CUSTOM_ELEMENTS_ADAPTER_URL =
