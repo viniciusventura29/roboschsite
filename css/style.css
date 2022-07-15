@@ -9,16 +9,23 @@
 
 
          df-messenger {
-          --df-messenger-bot-message: #878fac;
-          --df-messenger-button-titlebar-color: #df9b56;
-          --df-messenger-chat-background-color: #fafafa;
+          --df-messenger-bot-message: #EFF1F2;
+          --df-messenger-button-titlebar-color: #007BC0;
+          --df-messenger-chat-background-color: #ffffff;
           --df-messenger-font-color: white;
           --df-messenger-send-icon: #878fac;
-          --df-messenger-user-message: #479b3d;
+          --df-messenger-user-message: #007BC0;
+          --df-messenger-minimized-chat-close-icon-color: #007BC0;
+          
          }
 
         #nav{
             display: flex;
+        }
+
+        #logo{
+            width:250px;
+
         }
 
         #btn-search{
@@ -170,5 +177,46 @@
                 visibility: visible;
             }
 
+            #logo{
+                width:200px;
+            }
+
+            #btn-search{
+                font-size: 0.8rem;
+            }
+
+            #hamburger {
+                border-top: solid 2px;
+                width: 15px;
+                margin-right: 5px;
+            }
+            
+            #hamburger:after,
+            #hamburger::before {
+                content: '';
+                display: block;
+                width: 15px;
+                height: 2px;
+                background: black;
+                margin-top: 5px;
+                transition: .3s;
+                position: relative;
+            }
+
+            #btn-menu{
+                gap: 0px;
+            }
+
+            #btn-search p {
+                margin-left: 0px;
+            }
+        }
+
+            @media (max-width: 480px) {    
+                #logo{
+                    width:150px;
+                }
+
         
         }
+    
