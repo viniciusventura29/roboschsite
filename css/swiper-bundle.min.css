@@ -180,6 +180,7 @@
         font-weight: 500;
         margin-top: 10px;
         align-items: flex-end;
+        cursor: pointer;
     }
 
     .chat-bot{
