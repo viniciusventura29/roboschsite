@@ -91,7 +91,7 @@
         }
         
         #nav.active #menu {
-            height: 31.4vh;
+            height: 25vh;
             visibility: visible;
         }
 
@@ -483,7 +483,7 @@
 
       @media (max-width: 780px) {
           #nav.active #menu {
-              height: 100vh;
+              height: 100%;
               visibility: visible;
           }
         }
