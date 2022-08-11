@@ -6,9 +6,7 @@
             text-decoration: none;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
+      
 
          df-messenger {
           --df-messenger-bot-message:  #B2B9C0;
@@ -91,7 +89,7 @@
         }
         
         #nav.active #menu {
-            height: 25vh;
+            height: 30%;
             visibility: visible;
         }
 
@@ -225,9 +223,8 @@
           }
 
           .container-all{
-            width: fit-content;
             height: auto;
-            margin-top: 25vh;
+            margin-top: 400px;
             padding-left: 15vw;
             padding-right: 15vw;
             text-align: left;
@@ -297,6 +294,7 @@
 
           footer{
             background-color: #EFF1F2;
+            margin-top: 100px;
           }
 
           .footer {
@@ -421,7 +419,13 @@
 
             @media(max-width:1500px){
                 .container-all{
-                    display: block;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 200px;
+                  }
+                  .container{
+                    width: 500px;
+                    height: 350px;
                   }
             }
 
@@ -435,9 +439,13 @@
 
         @media (max-width:1000px){
 
+            .container-all{
+                display: block;
+            }
+
             .container{
-                width: auto;
-                height: auto;
+                width: 300px;
+                height: 170px;
             }
             .container-sobre{
                 flex-direction: column;
